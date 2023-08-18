@@ -20,8 +20,8 @@ class Logo {
   }
 }
 
-const randomX = Math.floor(Math.random()*924);
-const randomY = Math.floor(Math.random()*476);
+let randomX = Math.floor(Math.random()*924);
+let randomY = Math.floor(Math.random()*476);
 if (randomX%2) ++randomX;
 if (randomY%2) ++randomY;
 console.log(randomX)
