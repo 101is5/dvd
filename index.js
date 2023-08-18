@@ -22,8 +22,8 @@ class Logo {
 
 const randomX = Math.floor(Math.random()*924);
 const randomY = Math.floor(Math.random()*476);
-if (!randomX%2) ++randomX;
-if (!randomY%2) ++randomY;
+if (randomX%2) ++randomX;
+if (randomY%2) ++randomY;
 let increaseX = Math.floor(Math.random()*2);
 let increaseY = Math.floor(Math.random()*2);
 let colorIndex = Math.floor(Math.random()*colors.length);
